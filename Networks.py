@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[6]:
-
-
 # Foundation code for a network-based computational model of
 #systemic risk in banking networks
 
@@ -81,13 +75,11 @@ class Graph:
         return
 
 
-# In[8]:
 
 
 # This contains the actual implementation of a simple systemic risk modeller.
 # It is essentially a network based computational model of systemic risk. 
 
-__author__="Vaishnav Puri"
 
 import csv
 import random
@@ -176,7 +168,6 @@ class Result:
         self.minShock = min
 
 
-# In[12]:
 
 
 if __name__ == "__main__":
@@ -240,10 +231,3 @@ if __name__ == "__main__":
             print(links, ",",(links / 50),",", totalResults,",", avgTotalShocked, 
             ",", avgMaxShock,",", avgMinShock,",", maxMaxShock,",", maxMinShock,
             ",",stdevTotalShocked,",",stdevMaxShock,",",stdevMinShock)
-
-
-# In[ ]:
-
-
-
-
