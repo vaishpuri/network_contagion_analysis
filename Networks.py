@@ -168,7 +168,7 @@ class Result:
         self.minShock = min
 
 
-
+#inspired from https://gist.github.com/StuartGordonReid/9deb4ce312138e78debc#file-interbanknetworkmainmethod-py
 
 if __name__ == "__main__":
     sys = []
